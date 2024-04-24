@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "MailTMAPI"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name="prtolem", email="coder@derkown.ru" },
 ]
@@ -20,3 +20,6 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/prtolem/MailTM"
 "Bug Tracker" = "https://github.com/prtolem/MailTM/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mailtm"]
