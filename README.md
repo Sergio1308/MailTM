@@ -27,7 +27,7 @@ Asynchronous API wrapper for https://docs.mail.tm/
 
 ## Setup
 ```shell
-pip install MailTMAPI
+pip install https://github.com/prtolem/MailTM/archive/branch.zip --force-reinstall
 ```
 
 ## Usage example
